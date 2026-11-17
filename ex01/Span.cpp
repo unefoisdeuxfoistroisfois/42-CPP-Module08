@@ -25,6 +25,7 @@ Span &Span::operator=(const Span &rhs){
 }
 
 Span::Span(unsigned int size){
+  std::cout << "Span parameterized constructor called" << std::endl;
 	this->_N = size;
 }
 
